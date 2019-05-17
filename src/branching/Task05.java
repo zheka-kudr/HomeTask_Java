@@ -13,7 +13,7 @@ public class Task05 {
             System.out.println(b + " is less");
         } else if (a < b) {
             System.out.println(a + " is less");
-        } else if (a == b) {
+        } else {
             System.out.println("a = b");
         }
     }

@@ -25,8 +25,8 @@ public class Task10 {
             System.out.print(a[k - 1][i] + " ");
         }
         System.out.println("\n");
-        for (int i = 0; i < a.length; i++) {
-            System.out.println(a[i][p - 1]);
+        for (int[] ints : a) {
+            System.out.println(ints[p - 1]);
         }
 
     }

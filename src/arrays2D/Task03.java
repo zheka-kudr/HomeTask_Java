@@ -13,9 +13,9 @@ public class Task03 {
             }
             System.out.println();
         }
-        for (int i = 0; i < a.length; i++) {
-            for (int j = 0; j < a[i].length; j += a[0].length - 1) {
-                System.out.print(a[i][j] + " ");
+        for (int[] ints : a) {
+            for (int j = 0; j < ints.length; j += a[0].length - 1) {
+                System.out.print(ints[j] + " ");
             }
             System.out.println();
         }
